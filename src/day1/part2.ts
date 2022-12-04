@@ -1,5 +1,5 @@
 import * as fs from "fs";
-var data = fs.readFileSync("../inputs/day1.txt", "utf8");
+var data = fs.readFileSync("../../inputs/day1.txt", "utf8");
 let lines = data.split("\n");
 var max1: number = 0,
   max2: number = 0,
